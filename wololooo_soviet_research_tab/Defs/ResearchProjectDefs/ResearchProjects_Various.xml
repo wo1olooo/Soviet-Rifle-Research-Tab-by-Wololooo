@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>Soviet_Research_Program</defName>
+    <label>Soviet Armory Research Program</label>
+	
+	<description>An ancient weapons program rebuilt from fractured Soviet archives — a journey through Old Earth’s forgotten rifles, from early automatic prototypes to legendary battlefield staples. Though flawed, rugged, or unfinished, each design has been salvaged and reassembled by desperate hands on the Rim, offering settlers and soldiers alike a glimpse into humanity’s war-forged past.
+In these relics lie echoes of lost wars and the stubborn will to survive — reborn not in laboratories, but in the dust and fire of the frontier.
+
+~wololooo</description>
+
+	<tab>SovietGuns_by_wololooo</tab>
+	
+	<!-- Cost and tech level. -->
+    <baseCost>3000</baseCost>
+    <techLevel>Industrial</techLevel>
+
+	<!-- The research(es) should finished before the rifle's research. -->
+	
+	<prerequisites>
+      <li>Gunsmithing</li>
+	  <li>PrecisionRifling</li>
+    </prerequisites>
+	
+	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	
+	<!-- The place of rifle's on the research menu. -->
+    <researchViewX>0</researchViewX>
+    <researchViewY>3</researchViewY>
+	
+
+  </ResearchProjectDef>
+  
+  
+  
+  <!-- ASSAULT RIFLE RESEARCH -->
+  
+  
+  
+  <ResearchProjectDef>
+  
+    <defName>Soviet_Assault_Rifle_Program</defName>
+    <label>Soviet Assault Rifle Research And Production Program</label>
+	
+	<description>Recovered from fragmented archives and derelict weapons caches scattered across the Rim, this program represents Old Earth's first true push into mass-producing automatic rifles. From early prototypes like the AVS-36 and AS-44 to refined designs like the AKM, these schematics trace the evolution of Soviet infantry doctrine — forged in war, built for survival. Now, centuries later, these weapons walk again, rebuilt not for glory, but for necessity.
+
+~wololooo</description>
+
+	<tab>SovietGuns_by_wololooo</tab>
+	
+	<!-- Cost and tech level. -->
+    <baseCost>3000</baseCost>
+    <techLevel>Industrial</techLevel>
+
+	<!-- The researche(s) should finished before the rifle's research. -->
+	
+	<prerequisites>
+      <li>Gunsmithing</li>
+	  <li>PrecisionRifling</li>
+	  <li>Soviet_Research_Program</li>
+    </prerequisites>
+	
+	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	
+	<!-- The place of rifle's on the research menu. -->
+    <researchViewX>1</researchViewX>
+    <researchViewY>0</researchViewY>
+	
+
+  </ResearchProjectDef>
+  
+  
+  
+  
+  <!-- SEMI AUTO RESEARCH -->
+  
+  
+  
+  
+  <ResearchProjectDef>
+  
+    <defName>Soviet_SemiAuto_Rifle_Program</defName>
+    <label>Soviet Semi-Auto Rifle Research And Production Program</label>
+	
+	<description>Recovered from fractured Old Earth archives buried in pre-Fall orbital wreckage, this program marks the Soviet Union’s earliest push toward rapid-fire infantry weapons. Prototypes like the SVT-38 and refined models like the SVT-40 and SKS were forged in the fires of Earth’s last great wars — and lost in its silence. Centuries later, colonists on the Rim have begun piecing together these designs once more, reviving the era where semi-auto fire first walked the battlefield.
+
+A legacy of speed over bolt. A step toward the automatic age — rebuilt from the ashes.
+
+~wololooo</description>
+
+	<tab>SovietGuns_by_wololooo</tab>
+	
+	<!-- Cost and tech level. -->
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+
+	<!-- The researche(s) should finished before the rifle's research. -->
+	
+	<prerequisites>
+      <li>Gunsmithing</li>
+	  <li>PrecisionRifling</li>
+	  <li>Soviet_Research_Program</li>
+    </prerequisites>
+	
+	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	
+	<!-- The place of rifle's on the research menu. -->
+    <researchViewX>1</researchViewX>
+    <researchViewY>1.5</researchViewY>
+	
+
+  </ResearchProjectDef>
+  
+  
+  
+  <!-- SNIPER RESEARCH -->
+  
+  
+  
+  <ResearchProjectDef>
+  
+    <defName>Soviet_Sniper_Rifle_Program</defName>
+    <label>Soviet Sniper Rifle Research And Production Program</label>
+	
+	<description>Drawn from decaying military data caches and Cold War relic archives, this program revives Old Earth’s earliest attempts to combine precision and power on the battlefield. Focused on rifles like the scoped SVT variants and DMR prototypes, it represents the Soviet Union’s push to dominate long-range combat in an age of chaos.
+
+Now, centuries later, Rimworld marksmen look to these forgotten blueprints to restore the art of precision — one shot at a time
+
+~wololooo</description>
+
+	<tab>SovietGuns_by_wololooo</tab>
+	
+	<!-- Cost and tech level. -->
+    <baseCost>3000</baseCost>
+    <techLevel>Industrial</techLevel>
+
+	<!-- The researche(s) should finished before the rifle's research. -->
+	
+	<prerequisites>
+      <li>Gunsmithing</li>
+	  <li>PrecisionRifling</li>
+	  <li>Soviet_Research_Program</li>
+    </prerequisites>
+	
+	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	
+	<!-- The place of rifle's on the research menu. -->
+    <researchViewX>1</researchViewX>
+    <researchViewY>3</researchViewY>
+	
+
+  </ResearchProjectDef>
+  
+  
+  
+  <!-- LMG RESEARCH -->
+  
+   <ResearchProjectDef>
+  
+    <defName>Soviet_Light_Machine_Gun_Research_Program</defName>
+    <label>Soviet Light Machine Gun Research And Production Program</label>
+	
+	<description>Recovered from the fragmented weapons archives of Old Earth’s wartime era, this program focuses on resurrecting Soviet efforts to bring mobile suppressive fire to the infantry squad. Centered on rugged, belt-fed designs and heavy automatic carbines, it reflects a doctrine built on volume, durability, and battlefield presence.
+
+Now reborn on the Rim, these relics of steel and recoil offer colonists the firepower once reserved for empires.
+
+~wololooo</description>
+
+	<tab>SovietGuns_by_wololooo</tab>
+	
+	<!-- Cost and tech level. -->
+    <baseCost>3000</baseCost>
+    <techLevel>Industrial</techLevel>
+
+	<!-- The researche(s) should finished before the rifle's research. -->
+	
+	<prerequisites>
+      <li>Gunsmithing</li>
+	  <li>PrecisionRifling</li>
+	  <li>Soviet_Research_Program</li>
+    </prerequisites>
+	
+	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	
+	<!-- The place of rifle's on the research menu. -->
+    <researchViewX>1</researchViewX>
+    <researchViewY>4.5</researchViewY>
+	
+
+  </ResearchProjectDef>
+
+  
+</Defs>

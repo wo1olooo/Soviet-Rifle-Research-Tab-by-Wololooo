@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+  <name>Soviet Rifle Research Tab by Wololooo</name>
+  <author>wololooo</author>
+  <packageId>wololooo.sovietResearchTab</packageId>
+  
+  <description>A curated collection of Cold War-era and WWII Soviet rifles — researched, rediscovered, and rebuilt on the Rim.
+
+This mod adds a lore-rich, dedicated research tab for Soviet firearms, from experimental prototypes like the AVS-36 and AS-44 to legends like the AKM and SKS. Each weapon includes unique research, historical context, — rebuilt from corrupted schematics, derelict databanks, and stubborn survivor ingenuity.
+
+Whether you’re a scavenger seeking old-world firepower or a warlord chasing legacy, this mod lets you walk the Rim armed with the forgotten steel of humanity’s violent cradle.
+
+Crafted with obsessive detail by Wololooo.</description>
+	
+  <supportedVersions>
+	<li>1.6</li>
+    <li>1.5</li>
+  </supportedVersions>
+</ModMetaData>
