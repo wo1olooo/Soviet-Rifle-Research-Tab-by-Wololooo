@@ -1,0 +1,50 @@
+This is a dependency mod that provides a standalone Soviet-themed research tree for RimWorld.
+It does not add any weapons itself — instead, it serves as a required framework for Soviet firearm mods that use its research structure.
+
+🔧 What This Mod Does
+Adds a custom Soviet Armory research tab
+
+Provides research projects for:
+
+Soviet Assault Rifles
+
+Semi-Automatic Rifles
+
+Sniper Rifles
+
+Light Machine Guns
+
+Enables Soviet weapon mods to use consistent, lore-friendly research paths
+
+Fully RimWorld-lore integrated (pre-Fall tech rediscovered on the Rim)
+
+This mod is required by any Soviet weapon mods created by Wololooo.
+It does not add any guns or items on its own.
+
+📦 Dependencies & Use
+This mod is intended to be used as a dependency for other weapon mods.
+It must be loaded before any Soviet gun mods that rely on it.
+
+💡 Example Use Cases
+A mod that adds the AKM, SKS, or AS-44 will list this mod as a requirement.
+
+That weapon will appear only after researching the relevant Soviet program from this mod.
+
+✅ Compatibility
+RimWorld 1.5 / 1.6+
+
+XML-only, no C# code or Harmony patches
+
+Safe to add to existing saves (removal may break research trees)
+
+🛠 Technical Details
+Adds a new research tab: Soviet Armory
+
+Defines multiple research projects with unique labels
+
+Each project uses lore-rich, RimWorld-style descriptions
+
+Built for modular weapon integration
+
+📜 Credits
+Wololooo – Research tree design, XML structure, lore writing texts are editted by bunch of ai models.
